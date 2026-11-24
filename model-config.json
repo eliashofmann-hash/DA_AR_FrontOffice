@@ -1,0 +1,378 @@
+{
+  "model": "Rezeption",
+  "alt": "Gestaltungsstudie Rezeption im Hotel National Bern.",
+  "overview": {
+    "label": "Übersicht",
+    "orbit": "-145deg 55deg 100%",
+    "target": [
+      0.0,
+      0.07827077805995941,
+      -0.0
+    ],
+    "fov": 38,
+    "web_framing": {
+      "desktop_radius": "80%",
+      "portrait_radius": "100%",
+      "landscape_radius": "90%"
+    }
+  },
+  "views": {
+    "tresen": {
+      "label": "Tresen",
+      "eye": [
+        0.10687077790498734,
+        0.09678520262241364,
+        -0.03321060538291931
+      ],
+      "target": [
+        0.08251345157623291,
+        0.08691062033176422,
+        0.006287761032581329
+      ],
+      "theta_deg": 148.33924890336343,
+      "phi_deg": 77.98705478998941,
+      "radius_m": 0.047443727962672703,
+      "fov": 55,
+      "portrait_fov": 70,
+      "min_radius_m": 0.04459710428491234,
+      "max_radius_m": 0.04934147708117961,
+      "azimuth_limit_deg": 12,
+      "polar_limit_deg": 5,
+      "source_eye_m": [
+        6.55,
+        4.2,
+        1.65
+      ],
+      "source_look_m": [
+        4.7,
+        1.2,
+        0.9
+      ],
+      "fixed_eye": true
+    },
+    "treppenaufgang": {
+      "label": "Treppenaufgang",
+      "eye": [
+        -0.058233410120010376,
+        0.08160320669412613,
+        -0.13379128277301788
+      ],
+      "target": [
+        0.006290063261985779,
+        0.09488745033740997,
+        0.03131287544965744
+      ],
+      "theta_deg": -158.65420968993402,
+      "phi_deg": 94.28575120314513,
+      "radius_m": 0.17776144507343675,
+      "min_radius_m": 0.17242860172123364,
+      "max_radius_m": 0.18309428842563985,
+      "fov": 65,
+      "portrait_fov": 78,
+      "azimuth_limit_deg": 35,
+      "polar_limit_deg": 20,
+      "source_eye_m": [
+        2.2,
+        6.85,
+        1.2499998569488526
+      ],
+      "source_look_m": [
+        3.9,
+        2.5,
+        1.6
+      ],
+      "fixed_eye": true,
+      "eye_height_above_actual_tread_m": 1.6
+    }
+  },
+  "ceiling_materials": [
+    "CUT_decke__V20_Originale_Weisse_Querbalken_PBR_0",
+    "CUT_decke__V20_Originale_Weisse_Querbalken_PBR_1",
+    "CUT_decke__V20_Rezeption_Decke_Warmweiss"
+  ],
+  "interior_variant": false,
+  "environment": "./assets/rezeption-licht.hdr",
+  "exposure": 1.0,
+  "poster": null,
+  "source_status": "V23_BROWSER_VISUALLY_VERIFIED",
+  "nominal_width_m": 0.35,
+  "prior_static_manifest_sha256": "1d52c063c143d4f269f7a342b69971adb9926986074e751de4c3ab908ca74b1f",
+  "browser_model": "models/web-komplett.glb?v=aad8f838087be0e3",
+  "ar_model": "./models/modell.glb?v=afa5076501a51c51",
+  "cutaway": {
+    "groups": [
+      {
+        "id": "sued",
+        "label": "Südwand mit Türen, Schildern und Archivbild",
+        "point": [
+          0.06701803207397461,
+          0.0986829549074173,
+          0.16225756704807281
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "materials": [
+          "CUT_sued__AR_Bronze gebuerstet",
+          "CUT_sued__AR_Bronze gebuerstet.002",
+          "CUT_sued__AR_D02_Messing_satin_Einlagen",
+          "CUT_sued__AR_D18_Rahmen_Dunkles_Holz.001",
+          "CUT_sued__AR_D18_Rahmen_Dunkles_Holz.003",
+          "CUT_sued__AR_R03_Archiv_Passepartout",
+          "CUT_sued__AR_V02_Messing_matt.001",
+          "CUT_sued__AR_V02_Messing_matt.003",
+          "CUT_sued__AR_V06_Schild_Gravur_Dunkel.001",
+          "CUT_sued__AR_V06_Schild_Gravur_Dunkel.003",
+          "CUT_sued__AR_V06_Tuerschild_Messing_Satiniert",
+          "CUT_sued__AR_V06_Tuerschild_Messing_Satiniert.002",
+          "CUT_sued__AR_V06_Tuerschild_Messing_Satiniert.003",
+          "CUT_sued__AR_V10_Fugen_Ruhiges_Greige",
+          "CUT_sued__AR_V10_Keramik_Scherben_Matt_Steingrau",
+          "CUT_sued__AR_V12_HolzPBR02_Tueren_Rahmen_und_Friese_Nussbaumtiefe",
+          "CUT_sued__AR_V12_HolzPBR03_Tueren_Fuellung_Nussbaumtiefe",
+          "CUT_sued__AR_V12_HolzPBR03_Tueren_Fuellung_Nussbaumtiefe.001",
+          "CUT_sued__AR_V12_HolzPBR03_Tueren_Fuellung_Nussbaumtiefe.002",
+          "CUT_sued__AR_V12_HolzPBR03_Tueren_Fuellung_Nussbaumtiefe.003",
+          "CUT_sued__AR_V12_HolzPBR03_Tueren_Fuellung_Nussbaumtiefe.004",
+          "CUT_sued__CUT_ost__V16_QuellPBR_ost_PBR_11",
+          "CUT_sued__CUT_ost__V16_QuellPBR_ost_PBR_5",
+          "CUT_sued__CUT_ost__V16_QuellPBR_ost_PBR_8",
+          "CUT_sued__HN V02 | Gravur | dunkelbraun",
+          "CUT_sued__HN V02 | Messing | Tuerschilder satiniert",
+          "CUT_sued__R03_Echtes_Archivmotiv_Jungi_837",
+          "CUT_sued__V16_QuellPBR_sued_PBR_0",
+          "CUT_sued__V16_QuellPBR_sued_PBR_11",
+          "CUT_sued__V16_QuellPBR_sued_PBR_12",
+          "CUT_sued__V16_QuellPBR_sued_PBR_13",
+          "CUT_sued__V16_QuellPBR_sued_PBR_15",
+          "CUT_sued__V16_QuellPBR_sued_PBR_4",
+          "CUT_sued__V16_QuellPBR_sued_PBR_5",
+          "CUT_sued__V16_QuellPBR_sued_PBR_6",
+          "CUT_sued__V16_QuellPBR_sued_PBR_7",
+          "CUT_sued__V16_QuellPBR_sued_PBR_8",
+          "CUT_sued__V16_QuellPBR_sued_PBR_9",
+          "CUT_sued__V17_Vollstaendige_Originalwand_sued_PBR_0",
+          "CUT_sued__V17_Vollstaendige_Originalwand_sued_PBR_2",
+          "CUT_sued__V18_Archivglas_Klar_4Prozent",
+          "CUT_sued__V18_Mineralischer_Kern_Schnitt_Matt",
+          "CUT_sued__V18_Originalprofil_Vollstaendig_Altweiss",
+          "CUT_sued__V21_Einheitliche_Wandkern_Schnittflaeche"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "ost",
+        "label": "Östliche Wand mit Fotokeramik und originalen Profilen",
+        "point": [
+          0.17329199612140656,
+          0.0986829549074173,
+          0.050290368497371674
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "materials": [
+          "CUT_ost__AR_Steinfugen warmgrau.001",
+          "CUT_ost__AR_V09_LED_Kanal_Warmes_Elaluminium",
+          "CUT_ost__AR_V09_LED_Kanal_Warmes_Elaluminium.001",
+          "CUT_ost__AR_V09_LED_Verdeckter_Diffusor.001",
+          "CUT_ost__AR_V10_Fugen_Ruhiges_Greige",
+          "CUT_ost__AR_V10_Fugen_Ruhiges_Greige.001",
+          "CUT_ost__AR_V10_Keramik_Scherben_Matt_Steingrau",
+          "CUT_ost__AR_V10_Keramik_Scherben_Matt_Steingrau.001",
+          "CUT_ost__AR_V12_Archivoriginal_Fotodruck_Matt_Greige",
+          "CUT_ost__AR_V12_HolzPBR02_Infomoebel_Rahmen_und_Friese_Nussbaumtiefe",
+          "CUT_ost__CUT_nordportal__V16_QuellPBR_nordportal_PBR_0",
+          "CUT_ost__CUT_nordportal__V16_QuellPBR_nordportal_PBR_1",
+          "CUT_ost__CUT_nordportal__V16_QuellPBR_nordportal_PBR_2",
+          "CUT_ost__CUT_nordportal__V16_QuellPBR_nordportal_PBR_3",
+          "CUT_ost__CUT_nordportal__V16_QuellPBR_nordportal_PBR_4",
+          "CUT_ost__V16_QuellPBR_ost_PBR_0",
+          "CUT_ost__V16_QuellPBR_ost_PBR_1",
+          "CUT_ost__V16_QuellPBR_ost_PBR_11",
+          "CUT_ost__V16_QuellPBR_ost_PBR_12",
+          "CUT_ost__V16_QuellPBR_ost_PBR_14",
+          "CUT_ost__V16_QuellPBR_ost_PBR_5",
+          "CUT_ost__V16_QuellPBR_ost_PBR_6",
+          "CUT_ost__V16_QuellPBR_ost_PBR_7",
+          "CUT_ost__V16_QuellPBR_ost_PBR_8",
+          "CUT_ost__V16_QuellPBR_ost_PBR_9",
+          "CUT_ost__V17_Buendige_Neutrale_Unterkante",
+          "CUT_ost__V17_Lokaler_Stirnabschluss_Originalfarbton_ost",
+          "CUT_ost__V17_Vollstaendige_Originalwand_ost_PBR_0",
+          "CUT_ost__V17_Vollstaendige_Originalwand_ost_PBR_1",
+          "CUT_ost__V17_Vollstaendige_Originalwand_ost_PBR_3",
+          "CUT_ost__V18_Geschlossene_Wandkern_Schnittflaeche",
+          "CUT_ost__V18_Mineralischer_Kern_Schnitt_Matt",
+          "CUT_ost__V18_Originalprofil_Vollstaendig_Altweiss",
+          "CUT_ost__V18_Originalprofil_Warmes_Altweiss",
+          "CUT_ost__V19_Schnitt_Kern",
+          "CUT_ost__V20_Originaltaefer_Rechter_Treppenaufgang_PBR_0",
+          "CUT_ost__V20_Originaltaefer_Rechter_Treppenaufgang_PBR_1",
+          "CUT_ost__V20_Originaltaefer_Rechter_Treppenaufgang_PBR_2",
+          "CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_16_G01_Leuchtenglas_Klar",
+          "CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_17_G01_Opal_Kern",
+          "CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_3_G01_Messing_Satiniert",
+          "CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_9_G01_Schild_Dunkel.002",
+          "CUT_ost__V21_Einheitliche_Wandkern_Schnittflaeche",
+          "CUT_ost__V21_Originaler_Portalpfosten_2",
+          "CUT_ost__V21_Originaler_Portalpfosten_3"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "west",
+        "label": "Originale schräge Fensterwand mit Vorhängen und Holzbrüstung",
+        "point": [
+          -0.15795335173606873,
+          0.0986829549074173,
+          0.04536416381597519
+        ],
+        "outward": [
+          -0.9792603850364685,
+          0.0,
+          -0.2026059776544571
+        ],
+        "materials": [
+          "CUT_west__CUT_nordportal__V16_QuellPBR_nordportal_PBR_0",
+          "CUT_west__CUT_nordportal__V16_QuellPBR_nordportal_PBR_1",
+          "CUT_west__CUT_nordportal__V16_QuellPBR_nordportal_PBR_2",
+          "CUT_west__CUT_nordportal__V16_QuellPBR_nordportal_PBR_4",
+          "CUT_west__CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_16_G01_Leuchtenglas_Klar",
+          "CUT_west__CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_17_G01_Opal_Kern",
+          "CUT_west__CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_3_G01_Messing_Satiniert",
+          "CUT_west__CUT_ost__V20_Treppenhauslampe_CUT_gang__V14_PublicPBR_9_G01_Schild_Dunkel.002",
+          "CUT_west__CUT_suedwest__V16_QuellPBR_suedwest_PBR_1.001",
+          "CUT_west__CUT_suedwest__V16_QuellPBR_suedwest_PBR_6.001",
+          "CUT_west__CUT_suedwest__V16_QuellPBR_suedwest_PBR_7.001",
+          "CUT_west__V16_QuellPBR_west_PBR_0",
+          "CUT_west__V16_QuellPBR_west_PBR_1",
+          "CUT_west__V16_QuellPBR_west_PBR_10",
+          "CUT_west__V16_QuellPBR_west_PBR_11",
+          "CUT_west__V16_QuellPBR_west_PBR_12",
+          "CUT_west__V16_QuellPBR_west_PBR_13",
+          "CUT_west__V16_QuellPBR_west_PBR_14",
+          "CUT_west__V16_QuellPBR_west_PBR_16",
+          "CUT_west__V16_QuellPBR_west_PBR_18",
+          "CUT_west__V16_QuellPBR_west_PBR_19",
+          "CUT_west__V16_QuellPBR_west_PBR_2",
+          "CUT_west__V16_QuellPBR_west_PBR_20",
+          "CUT_west__V16_QuellPBR_west_PBR_21",
+          "CUT_west__V16_QuellPBR_west_PBR_22",
+          "CUT_west__V16_QuellPBR_west_PBR_23",
+          "CUT_west__V16_QuellPBR_west_PBR_3",
+          "CUT_west__V16_QuellPBR_west_PBR_4",
+          "CUT_west__V16_QuellPBR_west_PBR_5",
+          "CUT_west__V16_QuellPBR_west_PBR_9",
+          "CUT_west__V17_Vollstaendige_Originalwand_west_PBR_0",
+          "CUT_west__V17_Vollstaendige_Originalwand_west_PBR_1",
+          "CUT_west__V17_Vollstaendige_Originalwand_west_PBR_2",
+          "CUT_west__V17_Vollstaendige_Originalwand_west_PBR_3",
+          "CUT_west__V17_Vollstaendige_Originalwand_west_PBR_4",
+          "CUT_west__V18_Mineralischer_Kern_Schnitt_Matt",
+          "CUT_west__V18_Originales_Treppenhausfenster_PBR_0",
+          "CUT_west__V18_Originales_Treppenhausfenster_PBR_1",
+          "CUT_west__V18_Originales_Treppenhausfenster_PBR_2",
+          "CUT_west__V18_Originalprofil_Vollstaendig_Altweiss",
+          "CUT_west__V19_Originaler_Gruener_Taefer_Vor_Fenster_PBR_0",
+          "CUT_west__V19_Originaler_Gruener_Taefer_Vor_Fenster_PBR_1",
+          "CUT_west__V19_Schnitt_Kern",
+          "CUT_west__V21_Einheitliche_Wandkern_Schnittflaeche",
+          "CUT_west__V21_Exakter_Portalanschluss_gray",
+          "CUT_west__V21_Exakter_Portalanschluss_white",
+          "CUT_west__V21_Originaler_Portalpfosten_3",
+          "CUT_west__V21_Originalnussbaum_Buendiges_Taefer_Sockel_Portal_PBR_0",
+          "CUT_west__V21_Originalnussbaum_Buendiges_Taefer_Sockel_Portal_PBR_1",
+          "CUT_west__V22_Portalpfosten_Originalprofil_Ost_Gespiegelt_West_PBR_0"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "suedwest",
+        "label": "Südwestlicher originaler Wandanschluss",
+        "point": [
+          -0.10302029550075531,
+          0.06072797253727913,
+          0.12293621152639389
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "materials": [
+          "CUT_suedwest__V16_QuellPBR_suedwest_PBR_1",
+          "CUT_suedwest__V16_QuellPBR_suedwest_PBR_2",
+          "CUT_suedwest__V16_QuellPBR_suedwest_PBR_6",
+          "CUT_suedwest__V16_QuellPBR_suedwest_PBR_7",
+          "CUT_suedwest__V17_Buendige_Neutrale_Unterkante",
+          "CUT_suedwest__V17_Lokaler_Stirnabschluss_Originalfarbton_suedwest",
+          "CUT_suedwest__V17_Vollstaendige_Originalwand_suedwest_PBR_1",
+          "CUT_suedwest__V17_Vollstaendige_Originalwand_suedwest_PBR_2",
+          "CUT_suedwest__V17_Vollstaendige_Originalwand_suedwest_PBR_3",
+          "CUT_suedwest__V17_Vollstaendige_Originalwand_suedwest_PBR_5",
+          "CUT_suedwest__V18_Mineralischer_Kern_Schnitt_Matt",
+          "CUT_suedwest__V18_Originalprofil_Vollstaendig_Altweiss",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_0",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_1",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_2",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_3",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_4",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_5",
+          "CUT_suedwest__V20_Originales_Typografiebild_Hinter_Gruenem_Sessel_PBR_6",
+          "CUT_suedwest__V21_Einheitliche_Wandkern_Schnittflaeche"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "nordportal",
+        "label": "Vollständiges originales Nordportal",
+        "point": [
+          0.025267556309700012,
+          0.0986829549074173,
+          -0.04941736161708832
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "materials": [
+          "CUT_nordportal__AR_TR_Kalkstein_ruhig_Beige_Greige",
+          "CUT_nordportal__AR_V12_HolzPBR02_Infomoebel_Rahmen_und_Friese_Nussbaumtiefe",
+          "CUT_nordportal__V17_Vollstaendige_Originalwand_nordportal_PBR_0",
+          "CUT_nordportal__V17_Vollstaendige_Originalwand_nordportal_PBR_1"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "decke",
+        "label": "Originale Treppenhausdecke",
+        "point": [
+          0.025267556309700012,
+          0.16510416567325592,
+          -0.0863475650548935
+        ],
+        "outward": [
+          0,
+          1,
+          0
+        ],
+        "materials": [
+          "CUT_decke__V20_Originale_Weisse_Querbalken_PBR_0",
+          "CUT_decke__V20_Originale_Weisse_Querbalken_PBR_1",
+          "CUT_decke__V20_Rezeption_Decke_Warmweiss"
+        ],
+        "static_hidden": false
+      }
+    ],
+    "hysteresis_m": 0.002,
+    "overview_only": true
+  },
+  "ar_source_status": "V23_CURRENT_EXPORT_FILE_AND_REIMPORT_VERIFIED_PHONE_TEST_PENDING",
+  "ar_ios_model": "./models/modell.usdz?v=1d93d58d16ff94ee"
+}
